@@ -15,7 +15,7 @@ import { chromium } from "playwright-core";
 import { existsSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-const BASE = process.env.BASE_URL ?? "http://localhost:4173/venture-pricing-intelligence/";
+const BASE = process.env.BASE_URL ?? "http://localhost:4173/pricing-competitor-dashboard/";
 const CHROME = process.env.CHROME_PATH ?? [
   "C:/Program Files/Google/Chrome/Application/chrome.exe",
   "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",

@@ -2,7 +2,7 @@
 
 An interactive competitive-pricing dashboard for **Jewelry / Journey** (working concept name), a travel jewelry organizer venture by Sarah Bielski. It turns the Phase 1 · Mission 1 competitor research into an analytics application. You can explore the market, compare competitors, and test where a tentative selling price would sit among the observed prices.
 
-**Live site:** https://academiccat16.github.io/venture-pricing-intelligence/
+**Live site:** https://academiccat16.github.io/pricing-competitor-dashboard/
 
 > **Scope.** This covers competitor-oriented pricing only. The dashboard contains **no** cost analysis, break-even, demand curves, elasticity, sales or revenue forecasts, or willingness-to-pay estimates. Those belong to later missions.
 >
@@ -74,7 +74,7 @@ React 19 · TypeScript · Vite 8 · Tailwind CSS 4 · Recharts 3 · lucide-react
 npm install
 npm run dev          # development server
 npm run build        # production build into dist/
-npm run preview      # serve the production build at http://localhost:4173/venture-pricing-intelligence/
+npm run preview      # serve the production build at http://localhost:4173/pricing-competitor-dashboard/
 ```
 
 ## Test
@@ -84,7 +84,7 @@ npm run preview      # serve the production build at http://localhost:4173/ventu
 ```bash
 npm run build && npm run preview     # terminal 1
 npm run test:e2e                     # terminal 2
-BASE_URL=https://academiccat16.github.io/venture-pricing-intelligence/ npm run test:e2e   # test the live site
+BASE_URL=https://academiccat16.github.io/pricing-competitor-dashboard/ npm run test:e2e   # test the live site
 ```
 
 ## Deploy

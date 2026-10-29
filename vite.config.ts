@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // GitHub Pages serves this project from /<repository-name>/
 export default defineConfig({
-  base: "/venture-pricing-intelligence/",
+  base: "/pricing-competitor-dashboard/",
   plugins: [react(), tailwindcss()],
 });
